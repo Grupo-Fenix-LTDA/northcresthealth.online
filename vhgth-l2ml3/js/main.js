@@ -2,7 +2,7 @@
    Vigortrix landing page — page logic (vanilla JS)
    - formata data no header vermelho
    - countdown 19:59 persistido em sessionStorage
-   - gate: esconde seções .gated até vídeo atingir 3606s (ou flag localStorage)
+  - gate: esconde seções .gated até vídeo atingir 1981s (ou flag localStorage)
    - back-button hijack redireciona para vigortrix.com
    ====================================================================== */
 
@@ -43,7 +43,7 @@
 
   /* ---------------- gate de revelação ---------------- */
   function setupGate() {
-    var SECONDS_TO_DISPLAY = 2091; // delay de 2014 segundos
+    var SECONDS_TO_DISPLAY = 2091; // delay de 2091 segundos
     var STORAGE_KEY = 'vigortrix_revealed_' + SECONDS_TO_DISPLAY;
     var revealed = false;
 
